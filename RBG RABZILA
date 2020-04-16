@@ -398,6 +398,7 @@ end
 end
 gg.alert("🤯READY TO PLAY \nCoded By @Its481R")
 end
+end
  
  function IP()
  gg.setRanges(gg.REGION_ANONYMOUS)
