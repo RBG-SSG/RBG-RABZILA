@@ -396,7 +396,6 @@ i.freeze = true
 gg.addListItems((gg.getResults(99900000)))
 end
 end
-end
 gg.alert("🤯READY TO PLAY \nCoded By @Its481R")
 end
  
