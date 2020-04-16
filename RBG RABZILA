@@ -12,7 +12,8 @@ SSG = {
 "862611043354431", --- Dead man
 "862525041006613", --- Dead man 2
 "869798030047152", --- MOHABBAT
-"356810093276972" --- DIJANGO
+"356810093276972", --- DIJANGO
+"861312042663242" --- Kamal
 }
 table = revo.getPhoneInfo()
 function Tut(t, i)
@@ -396,8 +397,8 @@ i.freeze = true
 gg.addListItems((gg.getResults(99900000)))
 end
 end
-gg.alert("🤯READY TO PLAY \nCoded By @Its481R")
 end
+gg.alert("🤯READY TO PLAY \nCoded By @Its481R")
 end
  
  function IP()
