@@ -10,7 +10,8 @@ SSG = {
 "861067043868550", --- Keshave
 "869822038916588", --- HulK
 "862611043354431", --- Dead man
-862525041006613" --- Dead man 2
+"862525041006613", --- Dead man 2
+"869798030047152" --- MOHABBAT
 }
 table = revo.getPhoneInfo()
 function Tut(t, i)
