@@ -40,7 +40,7 @@ end
 end
 if valid then
 gg.clearResults()
-gg.alert("DEVICE VERIFIED SUCCESSFULLY")
+gg.toast("😍😍🛡️🛡️DEVICE VERIFIED SUCCESS🛡️🛡️😍😍")
 else
 gg.alert([[
 🚫DEVICE VERIFICATION FAILED🚫.
@@ -115,10 +115,32 @@ vip = -1
 end
 
 function WH()
-B = gg.alert(("WHATS YOUR PROCESSOR?"),"[SNAPDRAGON]","[EXYNOS]")
+B = gg.alert(("WHATS YOUR PROCESSOR?"),"[EXYNOS]","[SNAPDRAGON]")
 
 if B == nil then end
 if B == 1 then
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("36", gg.TYPE_DWORD)
+gg.toast("YELLOW 7904 DONE")
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("1.1210388e-44F;0.5F;0.5F:81", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+jg=gg.getResults(100)
+sl=gg.getResultCount()
+if sl>100 then sl=100 end
+for i = 1, sl do
+dzy=jg[i].address
+gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value = 2}})
+gg.toast("ᴡᴀʟʟʜᴀᴄᴋ ᴀᴄᴛɪᴠᴇ ")
+end
+end
+
+if B == 2 then
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("5.8013756e-42;-5.5695588e-40;2.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -173,28 +195,6 @@ gg.getResults(1401)
 gg.editAll("7169730606773831033", gg.TYPE_QWORD)
 gg.clearResults()
 gg.toast(" Color Green ")
-end
-
-if B == 2 then
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("36", gg.TYPE_DWORD)
-gg.toast("YELLOW 7904 DONE")
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("1.1210388e-44F;0.5F;0.5F:81", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-jg=gg.getResults(100)
-sl=gg.getResultCount()
-if sl>100 then sl=100 end
-for i = 1, sl do
-dzy=jg[i].address
-gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value = 2}})
-gg.toast("ᴡᴀʟʟʜᴀᴄᴋ ᴀᴄᴛɪᴠᴇ ")
-end
 end
 end
 end
