@@ -10,7 +10,7 @@ SSG = {
 "861067043868550", --- Keshave
 "869822038916588" ---- HulK
 }
-table = serdadu.getPhoneInfo()
+table = revo.getPhoneInfo()
 function Tut(t, i)
 local text = "'"       
 for k,v in pairs(t) do   
