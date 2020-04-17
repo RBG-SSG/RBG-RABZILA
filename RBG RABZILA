@@ -4,17 +4,13 @@ SSG = {
 "865294040513452", ---  zee
 "866700040231985", --- MONSTER
 "863964030612819", --- HAXOR
+"861488040426350", --- hyper
 "866817034900514", --- DONAK
 "869780038605603", --- FAHIM
 "861067043868550", --- Keshave
-"869822038916588", --- HulK
-"862611043354431", --- Dead man
-"862525041006613", --- Dead man 2
-"869798030047152", --- MOHABBAT
-"356810093276972", --- DIJANGO
-"861312042663242" --- Kamal
+"869822038916588" ---- HulK
 }
-table = revo.getPhoneInfo()
+table = serdadu.getPhoneInfo()
 function Tut(t, i)
 local text = "'"       
 for k,v in pairs(t) do   
@@ -38,7 +34,7 @@ end
 end
 if valid then
 gg.clearResults()
-gg.alert("...")
+
 else
 gg.alert([[
 🚫DEVICE VERIFICATION FAILED🚫.
@@ -72,7 +68,6 @@ gg.alert([[
                ♷  RBG✗『Zee』
                     RBG✗『SSG』♸]]) os.exit() end
 if RBGVIP == 2 then
-
 gg.alert([[
 🦋DEVICE VERIFIED.
 🦋RBG VIP SCRIPT 3.1
@@ -132,14 +127,48 @@ gg.searchNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.toast("SD Universal Wall Activated")
+V = gg.alert(("SELECT YOUR DESIRE COLOUR"),"RED SD ALL","YELLOW SD ALL","GREEN SD ALL")
+if V == nil then end
+if V == 1 then
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("536,887,304;1,669,332,992;536,887,297::", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
-gg.searchNumber("536,887,297", gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
-gg.getResults(80)
-gg.editAll("9999",gg.TYPE_DWORD)
-gg.toast("SD Universal Colour Activated")
+gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("7", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast(" Color Red ")
 end
+if V == 2 then
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("256;8200;13::150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast(" Color Yellow ")
+end
+if V == 3 then
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2305913382252838926", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("2305913382252838926", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("0D0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("2305913382252838926", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll("2305913382252838924", gg.TYPE_QWORD)
+gg.clearResults()
+gg.searchNumber("7169730606773899507", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("7169730606773899507", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("0C8", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("7169730606773899507", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll("7169730606773831033", gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(" Color Green ")
+end
+
 if B == 2 then
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -159,6 +188,7 @@ for i = 1, sl do
 dzy=jg[i].address
 gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value = 2}})
 gg.toast("ᴡᴀʟʟʜᴀᴄᴋ ᴀᴄᴛɪᴠᴇ ")
+end
 end
 end
 end
