@@ -34,7 +34,7 @@ end
 end
 if valid then
 gg.clearResults()
-
+gg.alert("DEVICE VERIFIED SUCCESSFULLY")
 else
 gg.alert([[
 🚫DEVICE VERIFICATION FAILED🚫.
