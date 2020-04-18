@@ -14,7 +14,8 @@ SSG = {
 "352380102971975", --- Unknown
 "862611043354431", --- Deadman
 "862525041006613", --- Deadman
-"861312042663242", --- Kamal
+"861312042663242",  --- Kamal
+"867194036955600" --- unknown
 }
 table = revo.getPhoneInfo()
 function Tut(t, i)
@@ -40,7 +41,8 @@ end
 end
 if valid then
 gg.clearResults()
-gg.toast("😍😍🛡️🛡️DEVICE VERIFIED SUCCESS🛡️🛡️😍😍")
+gg.toast("🛡️🛡️DEVICE VERIFIED SUCCESS🛡️🛡️")
+gg.sleep("3000")
 else
 gg.alert([[
 🚫DEVICE VERIFICATION FAILED🚫.
@@ -85,28 +87,28 @@ gg.setVisible(true)
 vip = 1
 
 function home()
-A = gg.choice({
+B = gg.choice({
 "BYPASS BAN 50%",
-"WALL+CL HACK",
+"VISUAL/ESP HACK",
 "DAMAGE  MENU ",        
 "      LOG OUT"            
  },nil,"═════════ ××× ═════════\n RAINBOW BUTTERFLY GAMiNG\n                 🆁🅰🅱🆉🅸🅻🅰\n═════════ ××× ═════════")
 
-if A == nil then
+if B == nil then
 else
 
-if A == 1 then BY()log()
+if B == 1 then BY()log()
 end
 
-if A == 2 then
+if B == 2 then
 WH()log()
 end
 
-if A == 3 then
+if B == 3 then
 BR()log()
 end
 
-if A == 4 then
+if B == 4 then
 close()log()
 end
 end
@@ -115,11 +117,347 @@ vip = -1
 end
 
 function WH()
-B = gg.alert(("WHATS YOUR PROCESSOR?"),"[EXYNOS]","[SNAPDRAGON]")
+A = gg.multiChoice({
+"🔥SNAPDRAGON 625",
+"🔥SNAPDRAGON 636",
+"🔥SNAPDRAGON 660",
+"🔥SNAPDRAGON 665",
+"🔥SNAPDRAGON 675",
+"🔥SNAPDRAGON 710",
+"🔥SNAPDRAGON 835",
+"🔥SNAPDRAGON 845",
+"🔥SNAPDRAGON 855",
+"🔥EXYNOS ALL",
+"📡ANTENA",
+"🚫LOG OUT"},nil,"📲SELECT WILL AUTO ADD\n♻️WH+CH+HS+AIM\n🚫USE ON GAME/TRAINING")
+ 
+ if A == nil then
+ else
+ 
+ if A[1] == true then
+w625()c625()log()
+ end
+ 
+ if A[2] == true then
+w636()c636()log()
+ end
+ 
+ if A[3] == true then
+w660()c660()log()
+ end
+ 
+ if A[4] == true then
+w665()c665()log()
+ end
+ 
+ if A[5] == true then
+w675()c675()log()
+ end
+ 
+ if A[6] == true then
+ w710()log()
+ end
+ 
+  if A[7] == true then
+  w835()c835()log()
+ end
+ 
+ if A[8] == true then
+w845()c845()log()
+ end
+ 
+if A[9] == true then
+w855()c855()log()
+ end
 
-if B == nil then end
-if B == 1 then
+ if A[10] == true then
+wceall()log()
+ end
+ 
+if A[11] == true then
+AN()log()
+ end
+ 
+ if A[12] == true then
+ close()log()
+ end
+ end
+ 
+ vip = -1
+ end
+ 
+function BR()
+D = gg.multiChoice({
+"AUTO HEADSHOT 200%",
+"LESS RECOIL(LOBBY+GAME)",
+"IPAD VIEW",
+"BLACK SKY(EXYNOS)",
+"FAST PARACHUIT",
+"BACK",},nil,"═════════ ××× ═════════\n RAINBOW BUTTERFLY GAMiNG\n                 🆁🅰🅱🆉🅸🅻🅰\n═════════ ××× ═════════")
+
+if D == nil then else
+if D[1] == true then HS()log() end
+if D[2] == true then LR()log() end
+if D[3] == true then IP()log() end
+if D[4] == true then BS()log() end
+if D[5] == true then FP()log() end
+if D[6] == true then home()log() end
+end
+
+ vip = -1
+ end
+ 
+ function w625()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
 gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w636()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w660()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-2147086191", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("4C8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1168777216", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("-2145644352", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("7E0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1168777216", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w665()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w675()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("69,897;147,457;69,739", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w710()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("200")
+gg.getResults(999)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("930")
+gg.getResults(999)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w835()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w845()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.4049168e21;1.3312335e-43;2.0;7.2303596e-15;2.37549734116:33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("50%%")
+gg.clearResults()
+gg.searchNumber("2.8866748e-43;1.3912567e-19;1.1202056e-19;2.0:121", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function w855()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-2 145 644 340", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("7E0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1 168 777 216", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("-2 147 483 636", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("4F8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1 168 777 216", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c625()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("8198", gg.TYPE_DWORD)
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c636()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1669332992;536887297;536887305:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.processResume()
+revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9999", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c660()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1,660,944,902", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("704", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-999999", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c665()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c675()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("69,897;147,457;69,739", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c710()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1,194,344,475D;8,201D;1,194,379,806D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c835()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("256;8200;13::150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c845()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1 078 984 714", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("704", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-1", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+
+function c855()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1 078 984 714", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("704", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-1", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("🔥🔥EXECUTION SUCCESSFULL 🔥🔥")
+end
+ 
+ function wceall()
+ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -139,88 +477,6 @@ gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value 
 gg.toast("ᴡᴀʟʟʜᴀᴄᴋ ᴀᴄᴛɪᴠᴇ ")
 end
 end
-
-if B == 2 then
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42;-5.5695588e-40;2.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("SD Universal")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.3912567e-19;1.1202056e-19;2.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("SD Universal Wall Activated")
-V = gg.alert(("SELECT YOUR DESIRE COLOUR"),"RED SD ALL","YELLOW SD ALL","GREEN SD ALL")
-if V == nil then end
-if V == 1 then
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast(" Color Red ")
-end
-if V == 2 then
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("256;8200;13::150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast(" Color Yellow ")
-end
-if V == 3 then
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2305913382252838926", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2305913382252838926", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0D0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2305913382252838926", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("2305913382252838924", gg.TYPE_QWORD)
-gg.clearResults()
-gg.searchNumber("7169730606773899507", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("7169730606773899507", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0C8", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("7169730606773899507", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("7169730606773831033", gg.TYPE_QWORD)
-gg.clearResults()
-gg.toast(" Color Green ")
-end
-end
-end
-
-function BR()
-D = gg.multiChoice({
-"ANTENA",
-"AUTO HEADSHOT 200%",
-"LESS RECOIL",
-"IPAD VIEW",
-"BLACK SKY(EXYNOS)",
-"FAST PARACHUIT",
-"BACK",},nil,"═════════ ××× ═════════\n RAINBOW BUTTERFLY GAMiNG\n                 🆁🅰🅱🆉🅸🅻🅰\n═════════ ××× ═════════")
-
-if D == nil then else
-if D[1] == true then AN()log() end
-if D[2] == true then HS()log() end
-if D[3] == true then LR()log() end
-if D[4] == true then IP()log() end
-if D[5] == true then BS()log() end
-if D[6] == true then FP()log() end
-if D[7] == true then home()log() end
-end
-
- vip = -1
- end
  
  function AN()
  gg.clearResults()
