@@ -83,8 +83,8 @@ vip = 1
 
 function home()
 B = gg.choice({
-"BYPASS GLOBAL",
-"BYPASS KOREA",
+"DATA ON OFF",
+"BYPASS ALL",
 "VISUAL/ESP HACK",
 "AUTO HEADSHOT 50%+MAGIC BULLET",
 "LESS RECOIL (LOBBY)",       
@@ -94,7 +94,7 @@ B = gg.choice({
 if B == nil then
 else
 
-if B == 1 then BYG()log()end
+if B == 1 then ONOFF()log()end
 if B == 2 then BYK()log() end
 if B == 3 then WHCH()log() end
 if B == 4 then HS()log() end
@@ -602,186 +602,6 @@ gg.toast("LessRecoil ᴀᴄᴛɪᴠᴇᴇᴅ ʙʏ ʀʙɢ")
 end--Its481R
  
  function BYK()
- gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-if gg.getResultCount() == 0 then
-gg.alert("BYPASS NOT ACTIVATE RESTART PLEASE")
-gg.setVisible(true)
-gg.processKill()
-os.exit()
-else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-mlulinX = gg.getResultCount()
-RBG = gg.getResults(mlulinX)
-for i = 1, mlulinX do
-gg.addListItems({[1] = {
-address = RBG[i].address + 4,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = RBG[i].address + 48,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = RBG[i].address + 100,flags = 4,freeze = true,value = 0
-}})
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber(9312, 4)
-gg.getResultsCount()
-gg.refineNumber(9312, 4)
-gg.refineNumber(9312, 4)
-gg.refineNumber(9312, 4)
-gg.getResultsCount()
-gg.getResults(999999)
-gg.getResultsCount()
-gg.getValues({[1] = {address = 2893240100, flags = 4}})
-gg.getValues({[1] = {address = 3052331992, flags = 4}})
-gg.getValues({[1] = {address = 3308734900, flags = 4}})
-gg.getValues({[1] = {address = 3308741036, flags = 4}})
-gg.getValues({[1] = {address = 3441199532, flags = 4}})
-gg.getValues({[1] = {address = 3712857724, flags = 4}})
-gg.getValues({[1] = {address = 3713026992, flags = 4}})
-gg.getValues({[1] = {address = 3713039024, flags = 4}})
-gg.getValues({[1] = {address = 3713059264, flags = 4}})
-gg.getValues({[1] = {address = 3713071232, flags = 4}})
-gg.getValues({[1] = {address = 3713083272, flags = 4}})
-gg.getValues({[1] = {address = 3713095224, flags = 4}})
-gg.getValues({[1] = {address = 3713107216, flags = 4}})
-gg.getValues({[1] = {address = 3715232116, flags = 4}})
-gg.getValues({[1] = {address = 3715374480, flags = 4}})
-gg.getValues({[1] = {address = 3715437124, flags = 4}})
-gg.getValues({[1] = {address = 3715468072, flags = 4}})
-gg.getValues({[1] = {address = 3715508692, flags = 4}})
-gg.getValues({[1] = {address = 3715537104, flags = 4}})
-gg.getValues({[1] = {address = 3715549936, flags = 4}})
-gg.getValues({[1] = {address = 3715581172, flags = 4}})
-gg.getValues({[1] = {address = 3715624244, flags = 4}})
-gg.getValues({[1] = {address = 3715677028, flags = 4}})
-gg.getValues({[1] = {address = 3715709048, flags = 4}})
-gg.getValues({[1] = {address = 3715754984, flags = 4}})
-gg.getValues({[1] = {address = 3715783288, flags = 4}})
-gg.getValues({[1] = {address = 3715824808, flags = 4}})
-gg.getValues({[1] = {address = 3715860776, flags = 4}})
-gg.getValues({[1] = {address = 3715895780, flags = 4}})
-gg.getValues({[1] = {address = 3715936820, flags = 4}})
-gg.getValues({[1] = {address = 3715968556, flags = 4}})
-gg.getValues({[1] = {address = 3717052504, flags = 4}})
-gg.getValues({[1] = {address = 3717127568, flags = 4}})
-gg.getValues({[1] = {address = 3717170868, flags = 4}})
-gg.getValues({[1] = {address = 3717242008, flags = 4}})
-gg.getValues({[1] = {address = 3788970424, flags = 4}})
-gg.getValues({[1] = {address = 3788976556, flags = 4}})
-gg.getValues({[1] = {address = 3788990904, flags = 4}})
-gg.getValues({[1] = {address = 3788997040, flags = 4}})
-gg.getValues({[1] = {address = 3826277500, flags = 4}})
-gg.getValues({[1] = {address = 3826312948, flags = 4}})
-gg.getValues({[1] = {address = 3826313036, flags = 4}})
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608:45", 4, false, 536870912, 0, -1)
-gg.searchNumber("196,608", 4, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.getResults(100)
-gg.getResultsCount()
-gg.addListItems({[1] = {
-address = 3479549348,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549352,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549356,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549360,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549364,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549368,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549368,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549372,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549376,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549380,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549384,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549388,flags = 4,freeze = true,value = 110
-}})
-gg.addListItems({[1] = {
-address = 3479549392,flags = 4,freeze = true,value = 110
-}})
-end--Its481R
-end--Its481R
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("10240;2139", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-if gg.getResultCount() == 0 then
-gg.alert("TRYING HARD WAY")
-else
-gg.searchNumber("102401", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-resultsCount = gg.getResultCount()
-results = gg.getResults(resultsCount)
-for i = 1, resultsCount do
-gg.addListItems({[1] = {
-address = results[i].address + 0,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = results[i].address + 4,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = results[i].address + 8,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = results[i].address + 12,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = results[i].address + 16,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = results[i].address + 20,flags = 4,freeze = true,value = 0
-}})
-gg.addListItems({[1] = {
-address = results[i].address + 100,flags = 4,freeze = true,value = 0
-}})
-end--Its481R
-end--Its481R
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4448", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-if gg.getResultCount() == 0 then
-gg.alert("TRYING HARD WAY")
-else
-gg.alert("BYPASSED PUBGM KOREA\nCODED BY @Its481R")
-gg.getResults(99900000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.getResults(99900000)
-for i, i in ipairs((gg.getResults(99900000))) do
-if i.flags == gg.TYPE_DWORD then
-i.value = "0"
-i.freeze = true
-gg.addListItems((gg.getResults(99900000)))
-end--Its481R
-end--Its481R
-end--Its481R
-gg.alert("BYPASSED PUBGM\nNEW CODED BY @Its481R")
-end
-
-function BYG()
-function ab()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
@@ -798,6 +618,23 @@ gg.clearResults()
 end
 gg.alert("☑Activated✅")
 gg.toast("Antiban Activated")
+end
+
+end
+
+function ONOFF()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("1.1754945e-37", 16, false, 536870912, 0, -1)
+gg.refineAddress("4E8")
+gg.getResults(30)
+gg.editAll("0", 16)
+gg.sleep(5000)
+gg.searchNumber("0", 16)
+gg.refineAddress("4E8")
+gg.getResults(30)
+gg.editAll("1.1754945e-37", 16)
+gg.clearResults()
 end
   
  function log()
