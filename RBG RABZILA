@@ -1,4 +1,5 @@
-
+gg.alert("SCRIPT UNDER MAINTANCE")
+os.exit()
 SSG = {
 "354554102751102", --- sajib
 "352380102971967", --- abir
