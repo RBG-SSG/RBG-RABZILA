@@ -540,29 +540,20 @@ gg.toast("ᴀɴᴛᴇɴᴀ sɪᴍᴘʟᴇ ")
 end
  
  function HS()
- gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("88.15017700195;15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("98", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("-88.66608428955;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("68", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("90.4850692749;27.25;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("27.25;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("88", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("30.5;25.0;23.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("30.5;25.0;23.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("349;200;242", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Headshot Brutal")
+ qmnb = {
+{["memory"] = 32},
+{["name"] = "Auto Headshot Brutal"},
+{["value"] = 9.201618194580078, ["type"] = 16},
+{["lv"] = -1.3185920715332031, ["offset"] = 4, ["type"] = 16},
+{["lv"] = 9.203507215715945E-5, ["offset"] = 8, ["type"] = 16},
+{["lv"] = 25.0, ["offset"] = 28, ["type"] = 16},
+{["lv"] = 30.5, ["offset"] = 32, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 300, ["offset"] = 28, ["type"] = 16},
+{["value"] = 301, ["offset"] = 32, ["type"] = 16},
+}
+xqmnb(qmnb)
 end
 
  function LR()
