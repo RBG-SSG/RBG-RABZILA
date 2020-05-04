@@ -16,7 +16,7 @@ SSG = {
 "861312042663242", --- KAPTAN
 "861312042663242/98", --- kaptan
 "861312042663242",  --- Kamal
-"865115047308218" --- AADIL
+"869798030047152" --- AADIL
 }
 table = revo.getPhoneInfo()
 function Tut(t, i)
